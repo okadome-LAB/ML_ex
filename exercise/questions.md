@@ -273,3 +273,8 @@ Kaggleにある[House Prices: Advanced Regression Techniques](https://www.kaggle
 
 49. [Kaggle](https://www.kaggle.com/)または[DeepAnalytics](https://deepanalytics.jp/compelist?tc=top_main)で開催中のコンテストに挑戦する．
     - 実際のデータを利用したデータ分析のコンテストサイト
+
+
+## Chapter 6〜
+### チャレンジ課題
+50. chapter6以降を読んだ上でそれぞれのコードに対し条件を変えて実験を行いどんな変化が起こったかを確認しよう

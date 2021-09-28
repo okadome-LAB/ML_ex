@@ -22,6 +22,7 @@ Pythonの内部的な実装はあまり扱わず，Pythonによるコーディ�
 - [Chapter 4: Pythonによる可視化 (matplotlib, pandas)と最適化](./text/Chapter4.ipynb)
 - [Chapter 5: Pythonによる機械学習 (scikit-learn)](./text/Chapter5.ipynb)
 - [Chapter 6: Pythonによる機械学習 (Pytorch)](./text/Chapter6.ipynb)
+- [Chapter 6: Pythonによる機械学習 (PyMC3)](./text/Chapter7.ipynb)
 
 ## 目標
 - Pythonで基本的なコードが書けるようになる
@@ -38,5 +39,5 @@ Pythonの内部的な実装はあまり扱わず，Pythonによるコーディ�
 - [Problem Solving with Algorithms and Data Structures using Python](https://interactivepython.org/runestone/static/pythonds/index.html)
 - [Pytorchでのモデルパラメータの確認](https://tzmi.hatenablog.com/entry/2021/04/30/105227)
 - [PyTorchで線形回帰+L1/L2正則化](https://qiita.com/tabintone/items/790729a89ed84bb21b74)
-
+- [PyMC3公式documents](https://docs.pymc.io/nb_tutorials/index.html)
 
