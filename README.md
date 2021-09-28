@@ -21,12 +21,12 @@ Pythonの内部的な実装はあまり扱わず，Pythonによるコーディ�
 - [Chapter 3: 数学系モジュール (math, numpy, scipy)](./text/Chapter3.ipynb)
 - [Chapter 4: Pythonによる可視化 (matplotlib, pandas)と最適化](./text/Chapter4.ipynb)
 - [Chapter 5: Pythonによる機械学習 (scikit-learn)](./text/Chapter5.ipynb)
-
+- [Chapter 6: Pythonによる機械学習 (Pytorch)](./text/Chapter6.ipynb)
 
 ## 目標
 - Pythonで基本的なコードが書けるようになる
 - Pythonのデータ構造を理解し，使えるようになる
-- PyDataと呼ばれるPythonによるデータ分析技術の基礎を理解する
+- Pythonによるデータ分析技術の基礎を理解する
 
 ## 参考資料
 - [Python3.5 チュートリアル](https://docs.python.jp/3.5/tutorial/index.html)
@@ -36,4 +36,7 @@ Pythonの内部的な実装はあまり扱わず，Pythonによるコーディ�
 - [Scipy Lecture Notes(日本語訳)](http://www.turbare.net/transl/scipy-lecture-notes/index.html)
 - [Jake VanderPlas "Python Data Science Handbook"](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Problem Solving with Algorithms and Data Structures using Python](https://interactivepython.org/runestone/static/pythonds/index.html)
+- [Pytorchでのモデルパラメータの確認](https://tzmi.hatenablog.com/entry/2021/04/30/105227)
+- [PyTorchで線形回帰+L1/L2正則化](https://qiita.com/tabintone/items/790729a89ed84bb21b74)
+
 
