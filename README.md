@@ -16,13 +16,16 @@ Pythonの内部的な実装はあまり扱わず，Pythonによるコーディ�
 楽しくPythonを学びましょう！
 
 ## 構成
-- [Chapter 1: PythonとJupyterの基礎知識](./text/Chapter1.ipynb)
-- [Chapter 2: 制御とデータ構造](./text/Chapter2.ipynb)
-- [Chapter 3: 数学系モジュール (math, numpy, scipy)](./text/Chapter3.ipynb)
-- [Chapter 4: Pythonによる可視化 (matplotlib, pandas)と最適化](./text/Chapter4.ipynb)
-- [Chapter 5: Pythonによる機械学習 (scikit-learn)](./text/Chapter5.ipynb)
-- [Chapter 6: Pythonによる機械学習 (Pytorch)](./text/Chapter6.ipynb)
-- [Chapter 7: Pythonによる機械学習 (PyMC3)](./text/Chapter7.ipynb)
+- [Chapter 1: PythonとJupyterの基礎知識](./text/Chapter01.ipynb)
+- [Chapter 2: 制御とデータ構造](./text/Chapter02.ipynb)
+- [Chapter 3: 数学系モジュール (math, numpy, scipy)](./text/Chapter03.ipynb)
+- [Chapter 4: Pythonによる可視化 (matplotlib, pandas)と最適化](./text/Chapter04.ipynb)
+- [Chapter 5: Pythonによる機械学習 (scikit-learn)](./text/Chapter05.ipynb)
+- [Chapter 6: Pythonによる機械学習 (Pytorch)](./text/Chapter06.ipynb)
+- [Chapter 7: Pythonによる機械学習 (PyMC3)](./text/Chapter07.ipynb)
+- [Chapter 8: 深層学習による画像分類 (Pytorch)](./text/Chapter08.ipynb)
+- [Chapter 9: 深層学習による転移学習 (Pytorch)](./text/Chapter09.ipynb)
+- [Chapter 10: 深層生成モデル-VAE (Pytorch)](./text/Chapter10.ipynb)
 
 ## 目標
 - Pythonで基本的なコードが書けるようになる
