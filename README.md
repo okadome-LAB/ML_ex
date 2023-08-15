@@ -16,11 +16,12 @@ Pythonの内部的な実装はあまり扱わず，Pythonによるコーディ�
 楽しくPythonを学びましょう！
 
 ## 構成
-- [Chapter 1: PythonとJupyterの基礎知識](./text/Chapter01.ipynb)
-- [Chapter 2: 制御とデータ構造](./text/Chapter02.ipynb)
-- [Chapter 3: 数学系モジュール (math, numpy, scipy)](./text/Chapter03.ipynb)
-- [Chapter 4: Pythonによる可視化 (matplotlib, pandas)と最適化](./text/Chapter04.ipynb)
-- [Chapter 5: Pythonによる機械学習 (scikit-learn)](./text/Chapter05.ipynb)
+- [Chapter 0: 数学系モジュール (math, numpy, scipy)](./text/Chapter00.ipynb)
+- [Chapter 1: Pythonによる可視化 (matplotlib, pandas)と最適化](./text/Chapter01.ipynb)
+- [Chapter 2: Pythonによる回帰問題 (scikit-learn)](./text/Chapter02.ipynb)
+- [Chapter 3: Pythonによる分類問題 (scikit-learn)](./text/Chapter03.ipynb)
+- [Chapter 4: アンサンブル学習](./text/Chapter04.ipynb)
+- [Chapter 5: 潜在変数モデル](./text/Chapter05.ipynb)
 - [Chapter 6: Pythonによる機械学習 (Pytorch)](./text/Chapter06.ipynb)
 - [Chapter 7: Pythonによる機械学習 (PyMC3)](./text/Chapter07.ipynb)
 - [Chapter 8: 深層学習による画像分類 (Pytorch)](./text/Chapter08.ipynb)
