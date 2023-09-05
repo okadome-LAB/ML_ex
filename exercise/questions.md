@@ -1,6 +1,6 @@
 # 演習問題
 
-## Chapter 1
+## EX 1
 Pythonに慣れるために基礎的な演算をやってみましょう．
 
 00. 1+1の結果を標準出力せよ．
@@ -50,7 +50,7 @@ Pythonに慣れるために基礎的な演算をやってみましょう．
       - 出力: 3
 
 
-## Chapter 2
+## EX 2
 ここでは，データ構造を意識しながら，問題に取り組みましょう．
 
 10. 2つの点の座標(x1, y1), (x2, y2)を標準入力から受け取り，その点の間のユークリッド距離を標準出力せよ．
@@ -137,7 +137,7 @@ Pythonに慣れるために基礎的な演算をやってみましょう．
     - AtCoderアカウントがある場合は，提出し実行確認してみよう．
 
 
-## Chapter 3
+## Chapter 0
 
 20. 余接関数を求める関数cot(theta)を実装せよ．
     - thetaはラジアンで入力されるとする．
@@ -204,9 +204,10 @@ Pythonに慣れるために基礎的な演算をやってみましょう．
     - また，1回の実行速度ではなく10回以上の実行の平均速度を使う．
 29. πを求める関数calculate_piを実装せよ．
     - math.piなど円周率をすでに計算された値を使ってはいけない．
+    - 例えば，モンテカルロ法を用いてシミュレーション的に求める方法がある．
 
 
-## Chapter 4
+## Chapter 1
 
 ### 可視化
 `matplotlib`モジュールを利用する．
@@ -230,51 +231,41 @@ Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GO
     - 補完の方法は，いくつか存在する．
     - それらを調べて確認してみよう．
 
-### 最適化1
+## Chapter 2
 
-37. 関数![関数](https://latex.codecogs.com/png.latex?f(x)=11&space;\cos(x)&space;&plus;&space;0.5x^2&space;&plus;&space;x)の最小値とそのときのxを求めよ．
-    - xは実数全体をとる．
-    - いくつかの方法で探索を行ってみるとよい．
-38. 巡回セールスマン問題に対して，いくつかの最適化手法を用いて近似解を求めよ．
-    - 街の数は![](https://latex.codecogs.com/png.latex?n&space;\geq&space;10)で実験．
-    - 最適化手法は，紹介したものや他のものから使う．
-39. どのように最適なルートを見つけていくかを可視化せよ．
-
-
-## Chapter 5
-
-40. (任意の)回帰モデルをscikit-learn準拠でコーディングし, 実験せよ.
+39. (任意の)回帰モデルをscikit-learn準拠でコーディングし, 実験せよ.
 	- MyRegression()クラスに必要なメソッド等を記述せよ.
 	- データは[`X_train.csv`](../text/data/X_train.csv)と[`y_train.csv`](../text/data/y_train.csv)を用いよ.
 	- 評価は[`X_test.csv`](../text/data/X_test.csv)で行う. 予測結果を`../text/data/y_pred.csv`として保存せよ.
 
-### Titanic
+## Chapter 3
+40. 「課題1 再急降下法の実装」に取り組み，コードを実装せよ．
+41. 「課題2 ニュートン法の実装」に取り組み，コードを実装せよ．
+42. 「課題3 ロジスティック回帰の実装」に取り組み，コードを実装せよ．
+    - fit関数を完成させることで再急降下法を用いたパラメータ推定ができるようにする．
+    - (オプション課題)newton_fit関数を完成させることでニュートン法を用いたパラメータ推定を行えるようにする．
 
-Kaggleにある[Titanic データセット](https://www.kaggle.com/c/titanic)を用いて，以下の実験をせよ．
+## Chapter 4
+43. 課題１.ジニ係数を求める関数を作成せよ
+44. 課題2.ジニ係数をもとにベストなデータ分割を行う関数を作成せよ
+45. (オプション課題)課題3 DecisionTreeNodeを完成させ，決定木を実装せよ
+46. 課題4 my_RandomForestClassifierを完成させ，ランダムフォレストを実装せよ．
 
-41. この問題はどのような問題になるかを検討する．
-42. 推定手法をいくつか列挙する．
-43. 各手法に対して，どの程度の性能が出るかを試す． 
-44. もっとも性能が高い手法を改良する．
-
-### House Prices
-
-Kaggleにある[House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)を用いて，以下の実験をせよ．
-
-45. Tutorialsの中にある[Comprehensive data exploration with Python]を用いて，データを理解する．
-46. 線形回帰モデルを用いて，実験する．
-47. 他の手法を用いて，性能を改善する．
-48. 自分が利用した手法で超パラメータの調整を行う．
-    - 超パラメータの探索手法は，任意の手法で行ってよい．
-    - ただし，テストデータを使って超パラメータの調整をしてはならない．
-      - 学習データの一部を超パラメータの調整のために利用すること．
+## Chapter 5
+47. 課題1 k-means法を実装せよ
+48. (オプション課題) 課題2 クラスmy_GMMを完成させることで混合ガウス分布を推定するEMアルゴリズムを実装せよ．
 
 ### 最終問題
+[Kaggle](https://www.kaggle.com/)のデータ分析コンテストに挑戦する．
+  - 提出はデータ分析に使用したコード(.py)と予測結果の出力(.txt)の二つを提出せよ．
+  - 予測精度の高さとコードの内容を総合的に評価する．
+  - 49,50のいずれかに挑戦せよ．（両方に取り組んでも構わない）
 
-49. [Kaggle](https://www.kaggle.com/)または[DeepAnalytics](https://deepanalytics.jp/compelist?tc=top_main)で開催中のコンテストに挑戦する．
-    - 実際のデータを利用したデータ分析のコンテストサイト
+49. [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)のデータ分析に挑戦せよ．
+50. [Titanic データセット](https://www.kaggle.com/c/titanic)のデータ分析に挑戦せよ．
 
-
-## Chapter 6〜
+## Chapter 6〜Chapter 10
 ### チャレンジ課題
-50. chapter6以降を読んだ上でそれぞれのコードに対し条件を変えて実験を行いどんな変化が起こったかを確認しよう
+51~55. chapter6以降を読んだ上でそれぞれのコードに対し条件を変えて実験を行いどんな変化が起こったかを確認しよう
+    - それぞれの実験の結果をレポートにて報告せよ．
+    - コードを変えることでどのような結果の変化が起こったか，またそれはなぜだと考えられるか考察せよ．
