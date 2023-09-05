@@ -531,8 +531,8 @@ Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GO
   - 予測精度の高さとコードの内容を総合的に評価する．
   - 49,50のいずれかに挑戦せよ．（両方に取り組んでも構わない）
 
-1.   [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)のデータ分析に挑戦せよ．
-2.   [Titanic データセット](https://www.kaggle.com/c/titanic)のデータ分析に挑戦せよ．
+49.   [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)のデータ分析に挑戦せよ．
+50.   [Titanic データセット](https://www.kaggle.com/c/titanic)のデータ分析に挑戦せよ．
 
 ## Chapter 6〜Chapter 10
 ### チャレンジ課題
