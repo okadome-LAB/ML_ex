@@ -108,7 +108,7 @@ Pythonに慣れるために基礎的な演算をやってみましょう．
     - ファイルは複数行あり，全ての行にわたっての単語の頻度を求める．
     - 単語の頻度が同じ場合は，単語の辞書順に出力する．
     - 例題:
-      - ファイル内のデータ:
+      - ファイル内のデータ([`sample.txt`](../text/data/sample.txt)):
       	```
 		aaa aa ab aa
 		aa ba aaa ab
@@ -230,13 +230,16 @@ Pythonに慣れるために基礎的な演算をやってみましょう．
 32. 平均0，標準偏差2の正規分布から生成したサンプルのヒストグラムを表示せよ．
 
 ### pandasモジュールについて
-Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GOOG)を1年分取得する．
+Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GOOG)を1年分取得して，"GOOG.csv"という名前で保存せよ．
+既にある[`GOOG.csv`](../text/data/GOOG.csv)を使用してもよい．
 
 33. csvにある列名をリストで標準出力せよ．
 34. "Adj Close"の列をプロットせよ．
     - ただし，時系列順に並び替えて表示する．
 35. 最近1ヶ月にしぼって，データフレームを作成せよ．
-36. [`sample.csv`](../text/data/sample.csv)について，欠損値を補完して表示せよ．
+36. "Adj Close"の列に関して前日との差分をとって株価の前日比を計算し，"DoD"という列を作成せよ．
+37. "DoD"が±1USD以上となっている行を抽出せよ．
+38. [`sample.csv`](../text/data/sample.csv)について，欠損値を補完して表示せよ．
     - 補完の方法は，いくつか存在する．
     - それらを調べて確認してみよう．
 
