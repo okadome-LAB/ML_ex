@@ -1,1 +1,3 @@
-
+このコンテストではaccuracyを用いて提出結果の評価を行う．
+train.csvを用いて予測モデルを学習させて，test.csvに対する予測結果を出力する．
+出力例はgender_submission.csvと同じ形式で行うこと．
